@@ -5,7 +5,7 @@ st.set_page_config(layout="wide")
 
 # Customize the sidebar
 markdown = """
-A Streamlit map template
+Fair Go for PhDs
 <https://github.com/opengeos/streamlit-map-template>
 """
 
@@ -15,7 +15,7 @@ logo = "https://i.imgur.com/UbOXYAU.png"
 st.sidebar.image(logo)
 
 # Customize page title
-st.title("Streamlit for Geospatial Applications")
+st.title("Fair Go for PhDs")
 
 st.markdown(
     """
