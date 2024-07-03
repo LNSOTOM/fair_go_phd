@@ -11,7 +11,7 @@ Fair Go for PhDs
 
 st.sidebar.title("About")
 st.sidebar.info(markdown)
-logo = "https://github.com/LNSOTOM/fair_go_phd/blob/e3e3f8c081e393307af00e13ebc83947be32650d/assets/instagram%20_1.png"
+logo = "assets/instagram _1.png"
 st.sidebar.image(logo)
 
 # Customize page title
