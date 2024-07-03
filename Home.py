@@ -6,7 +6,7 @@ st.set_page_config(layout="wide")
 # Customize the sidebar
 markdown = """
 Fair Go for PhDs
-<https://github.com/opengeos/streamlit-map-template>
+<https://x.com/RaiseHDRStipend>
 """
 
 st.sidebar.title("About")
