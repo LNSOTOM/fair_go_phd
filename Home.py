@@ -35,6 +35,11 @@ markdown = """
 
 st.markdown(markdown)
 
-m = leafmap.Map(minimap_control=True)
-m.add_basemap("OpenTopoMap")
+m = leafmap.Map(center=[-25.2744, 133.7751], zoom=4, minimap_control=True)
+# m.add_basemap("OpenTopoMap")
+m.add_tile_layer(
+    url="https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}",
+    name="Google Satellite",
+    attribution="Google",
+)
 m.to_streamlit(height=500)

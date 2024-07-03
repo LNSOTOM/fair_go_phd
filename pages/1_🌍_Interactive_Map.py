@@ -16,7 +16,7 @@ st.title("Interactive Map")
 
 col1, col2 = st.columns([4, 1])
 options = list(leafmap.basemaps.keys())
-index = options.index("OpenTopoMap")
+index = options.index("Google_satellite")
 
 with col2:
 
