@@ -1,4 +1,4 @@
-# streamlit-map-template
+# Fair Go for PhDs
 
 A streamlit template for mapping applications. It can be deployed to [Streamlit Cloud](https://streamlit.io/cloud).
 
