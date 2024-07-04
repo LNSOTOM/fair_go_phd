@@ -20,17 +20,17 @@ st.title("Fair Go for PhDs")
 st.header("Who are PhD students")
 
 st.markdown(
-    """
-    1.(some stats/demographics of PhD students in Australia! - pull some stats from dept of education?) 
-    2.~50,000 Phd students in australia 
-    3.Future professors, industry professionals, etc. 
-    """
+"""
+1.(some stats/demographics of PhD students in Australia! - pull some stats from dept of education?)\\
+2.~50,000 Phd students in australia\\
+3.Future professors, industry professionals, etc. 
+"""
 )
 
 st.header("What do PhD students do ")
 
 markdown = """
-    1.Expected to work 40 hrs/week year round 
+    1.Expected to work 40 hrs/week year round.\\
     2.Ground breaking, state of the art, frontline research 
 """
 
