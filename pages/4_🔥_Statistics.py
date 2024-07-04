@@ -3,14 +3,15 @@ import leafmap.foliumap as leafmap
 
 st.set_page_config(layout="wide")
 
+# Customize the sidebar
 markdown = """
-A Streamlit map template
-<https://github.com/opengeos/streamlit-map-template>
+Fair Go for PhDs
+<https://x.com/RaiseHDRStipend>
 """
 
 st.sidebar.title("About")
 st.sidebar.info(markdown)
-logo = "https://i.imgur.com/UbOXYAU.png"
+logo = "assets/instagram _1.png"
 st.sidebar.image(logo)
 
 st.title("Heatmap")
