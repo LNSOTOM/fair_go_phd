@@ -1,14 +1,16 @@
 import streamlit as st
 import leafmap.foliumap as leafmap
 
+
+# Customize the sidebar
 markdown = """
-A Streamlit map template
-<https://github.com/opengeos/streamlit-map-template>
+Fair Go for PhDs
+<https://x.com/RaiseHDRStipend>
 """
 
 st.sidebar.title("About")
 st.sidebar.info(markdown)
-logo = "https://i.imgur.com/UbOXYAU.png"
+logo = "assets/instagram _1.png"
 st.sidebar.image(logo)
 
 
@@ -16,7 +18,7 @@ st.title("Interactive Map")
 
 col1, col2 = st.columns([4, 1])
 options = list(leafmap.basemaps.keys())
-index = options.index("Google_satellite")
+index = options.index("Google Satellite")
 
 with col2:
 

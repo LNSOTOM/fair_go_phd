@@ -27,7 +27,7 @@ st.markdown(
 """
 )
 
-st.header("What do PhD students do ")
+st.header("What do PhD students do")
 
 markdown = """
     1.Expected to work 40 hrs/week year round.\\
@@ -35,6 +35,8 @@ markdown = """
 """
 
 st.markdown(markdown)
+
+st.header("Where are we")
 
 m = leafmap.Map(center=[-25.2744, 133.7751], zoom=4, minimap_control=True)
 # m.add_basemap("OpenTopoMap")
