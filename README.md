@@ -2,7 +2,7 @@
 
 Raise the HDR Stipend.
 
-Web App URL: ![webapp_fairGoPhD](https://fair-go-phd.streamlit.app/)
+Web App URL: <https://fair-go-phd.streamlit.app>
 
 ## Instructions
 
