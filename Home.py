@@ -17,21 +17,21 @@ st.sidebar.image(logo)
 # Customize page title
 st.title("Fair Go for PhDs")
 
+st.header("Who are PhD students")
+
 st.markdown(
     """
-    This multipage app template demonstrates various interactive web apps created using [streamlit](https://streamlit.io) and [leafmap](https://leafmap.org). 
-    It is an open-source project and you are very welcome to contribute to the [GitHub repository](https://github.com/LNSOTOM/fair_go_phd/tree/main).
+    1.(some stats/demographics of PhD students in Australia! - pull some stats from dept of education?) 
+    2.~50,000 Phd students in australia 
+    3.Future professors, industry professionals, etc. 
     """
 )
 
-st.header("Instructions")
+st.header("What do PhD students do ")
 
 markdown = """
-1. For the [GitHub repository](https://github.com/LNSOTOM/fair_go_phd/tree/main) or [use it as a template](https://github.com/opengeos/streamlit-map-template/generate) for your own project.
-2. Customize the sidebar by changing the sidebar text and logo in each Python files.
-3. Find your favorite emoji from https://emojipedia.org.
-4. Add a new app to the `pages/` directory with an emoji in the file name, e.g., `1_🚀_Chart.py`.
-
+    1.Expected to work 40 hrs/week year round 
+    2.Ground breaking, state of the art, frontline research 
 """
 
 st.markdown(markdown)
