@@ -14,3 +14,4 @@ Web App URL: <https://map-template.streamlit.app>
 ## Demo
 
 ![](https://i.imgur.com/6lj0oAO.png)
+![demo_fairGoPhD]([https://github.com/LNSOTOM/ecosystem_uas_dl/assets/39131939/4179f2cb-ec43-4e6f-baf3-8586af3c6d0b](https://github.com/LNSOTOM/fair_go_phd/blob/main/assets/demo_fairGoPhD.png))
