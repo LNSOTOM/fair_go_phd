@@ -24,7 +24,7 @@ st.header("Who are PhD students?")
 
 st.markdown(
 """
-1. A PhD is the highest obtainable degree in a given discipline, and it results from a high-quality contribution to the field. \\
+1. A PhD is the highest obtainable degree in a given discipline, and it results from a high-quality contribution to the field. \
 2. Approximately ~50,000 PhD students are active within Australia; the majority work full-time on their project, which has a duration of 3.5 years. \\
 3. Once they graduate, PhD students may go on to stay within academia, or work in industry. \\
 """
