@@ -17,7 +17,8 @@ st.sidebar.image(logo)
 # Customize page title
 st.title("Fair Go for PhDs")
 
-logo = "assets/Fair_go_infog_1.png"
+infog1 = "assets/Fair_go_infog_1.png"
+st.image(infog1)
 
 st.header("Who are PhD students")
 
