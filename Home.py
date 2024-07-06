@@ -33,8 +33,8 @@ st.markdown(
 st.header("What do PhD students do?")
 
 markdown = """
-    1. PhD students work on ground breaking, state of the art, frontline research under the supervision of a team of experts.\
-    2. PhD students work 40 hours a week and receive allocated time off (similarly to staff members).\
+    1. PhD students work on ground breaking, state of the art, frontline research under the supervision of a team of experts.\\
+    2. PhD students work 40 hours a week and receive allocated time off (similarly to staff members).\\
 """
 
 st.markdown(markdown)
