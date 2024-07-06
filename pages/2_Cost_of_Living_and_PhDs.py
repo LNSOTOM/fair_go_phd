@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Title of the app
-st.title("How has Cost of Living affected PhD students?")
+st.title("How has cost of living affected PhD students?")
 
 # Read the CSV file
 df = pd.read_csv("assets/hdr_rates.csv")
