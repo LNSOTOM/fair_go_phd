@@ -3,17 +3,14 @@ import pandas as pd
 import plotly.express as px
 
 # Title of the app
-st.title("Interactive Graph from CSV")
+st.title("How has Cost of Living affected PhD students?")
 
 # File uploader
-uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
+uploaded_file = st.file_uploader("assets/AllGroupsCPI", type="csv")
 
 if uploaded_file is not None:
     # Read the CSV file
     df = pd.read_csv(uploaded_file)
-
-    # Display the dataframe
-    st.write("DataFrame:", df)
 
     # Select columns for x and y axes
     x_axis = st.selectbox("Select X-Axis Column", options=df.columns)
