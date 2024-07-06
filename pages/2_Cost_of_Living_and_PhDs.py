@@ -17,6 +17,8 @@ plt.xlabel('Year')  # x-axis label
 plt.ylabel('Weekly HDR stipend rate (AUD)')  # y-axis label
 plt.title('Minimum HDR Stipend vs Poverty Line')  # Plot title
 
+plt.legend() # Add legend
+
 # Display plot in Streamlit
 st.pyplot(fig)
 
