@@ -6,7 +6,7 @@ import plotly.express as px
 st.title("How has Cost of Living affected PhD students?")
 
 # File uploader
-uploaded_file = st.file_uploader("assets/AllGroupsCPI", type="csv")
+uploaded_file = pd.dataframe("assets/AllGroupsCPI.csv")
 
 if uploaded_file is not None:
     # Read the CSV file
