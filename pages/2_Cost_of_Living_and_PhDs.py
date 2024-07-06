@@ -11,9 +11,6 @@ df = pd.read_csv("assets/hdr_rates.csv")
 # Calculate the difference between stipend and poverty line
 df['difference'] = df['weekly_full-time_base_rate_AUD'] - df['weekly_poverty_thresh_AUD']
 
-# Set matplotlib style (optional: adjust based on user preference)
-plt.style.use('seaborn-whitegrid')
-
 # Plotting
 fig, ax = plt.subplots(figsize=(10, 6))  # Adjust the figure size
 
