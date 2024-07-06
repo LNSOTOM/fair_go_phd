@@ -5,12 +5,8 @@ import plotly.express as px
 # Title of the app
 st.title("How has Cost of Living affected PhD students?")
 
-# File uploader
-uploaded_file = pd.dataframe("assets/AllGroupsCPI.csv")
-
-if uploaded_file is not None:
-    # Read the CSV file
-    df = pd.read_csv(uploaded_file)
+# Read the CSV file
+    df = pd.read_csv("assets/AllGroupsCPI.csv")
 
     # Select columns for x and y axes
     x_axis = st.selectbox("Select X-Axis Column", options=df.columns)
