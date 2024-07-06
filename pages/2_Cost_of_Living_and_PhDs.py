@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
-import mpld3
 
 # Title of the app
 st.title("How has Cost of Living affected PhD students?")
@@ -17,6 +16,5 @@ plt.xlabel('Time')  # x-axis label
 plt.ylabel('CPI')  # y-axis label
 
 # Display plot in Streamlit
-#st.pyplot()
-fig_html = mpld3.fig_to_html(fig)
-components.html(fig_html, height=600)
+st.pyplot()
+
