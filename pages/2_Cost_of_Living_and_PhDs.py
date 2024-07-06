@@ -8,15 +8,6 @@ st.title("How has Cost of Living affected PhD students?")
 # Read the CSV file
 df = pd.read_csv("assets/hdr_rates.csv")
 
-# Check the current Streamlit theme
-theme = st.get_option("theme")
-
-# Set the appropriate matplotlib style based on Streamlit theme
-if theme == "dark":
-    plt.style.use('dark_background')
-else:
-    plt.style.use('seaborn-whitegrid')
-
 # Plotting up figure
 fig = plt.figure(figsize=(10, 6))  # Adjust the figure size 
 plt.plot(df['Year'], df['weekly_full-time_base_rate_AUD'], marker='o', linestyle='-', label='Minimum HDR stipend')  # Plot minimum HDR stipend
