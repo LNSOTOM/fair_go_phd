@@ -25,7 +25,7 @@ for index, row in df.iterrows():
     else:
         label = f"-${abs(row['difference']):,.2f}"
     
-    ax.annotate(label, (row['Year'], row['weekly_full-time_base_rate_AUD']), xytext=(5,-10), textcoords='offset points', ha='center', fontsize=8, color='green')
+    ax.annotate(label, (row['Year'], row['weekly_full-time_base_rate_AUD']), xytext=(10,-10), textcoords='offset points', ha='center', fontsize=8, color='blue')
 
 # Set labels and title
 ax.set_xlabel('Year')  # x-axis label
