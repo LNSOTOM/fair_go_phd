@@ -16,5 +16,5 @@ plt.xlabel('Time')  # x-axis label
 plt.ylabel('CPI')  # y-axis label
 
 # Display plot in Streamlit
-st.pyplot()
+st.pyplot(fig)
 
