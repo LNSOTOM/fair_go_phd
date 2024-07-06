@@ -9,7 +9,7 @@ st.title("How has Cost of Living affected PhD students?")
 df = pd.read_csv("assets/AllGroupsCPI.csv")
 
 # Create a plotly figure
-fig = px.scatter(df, x=x_axis, y=y_axis)
+fig = px.scatter(df, x=col_1, y=col_3)
 
 # Display the figure
 st.plotly_chart(fig)
