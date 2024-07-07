@@ -26,6 +26,7 @@ st.markdown(
 """
 Go Fair for PhDs is a campaign led by PhD students at the University of Tasmania (UTAS). Our goal is to ensure the just compensation of PhD students nationwide: we want universities to raise the minimum PhD stipend to match the national minimum wage, so that PhD students can live with dignity and focus on their research.
 """
+)
 
 st.header("Who are PhD students?")
 
