@@ -61,8 +61,8 @@ Many PhD students are a medical emergency away from having to pause or drop out 
 # Create a DataFrame directly in the code
 # Create a DataFrame directly in the code
 budget_data = {
-    "Budget Category": ["PhD stipend (annual)", "Rent in Hobart (sharehouse or small studio", "Single-person groceries", "Utilities and additional costs", "Cost of a cheap car (purchase and running costs)", "Annual remainder", "Weekly remainder"],
-    "Expense": [32195, -12567, -4651, -6240, -4037, 4700, 90]
+    "Item": ["PhD stipend (annual)", "Rent in Hobart (room in sharehouse or small studio)", "Groceries for 1 person", "Utilities and additional costs (e.g., bills, phone plan, UTAS Unigym membership)", "Cost of a cheap car (purchase and running costs)", "Annual remainder", "Weekly remainder"],
+    "Expense (AUD)": [32195, -12567, -4651, -6240, -4037, 4700, 90]
 }
 
 budget_df = pd.DataFrame(budget_data)
