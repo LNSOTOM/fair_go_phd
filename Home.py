@@ -73,6 +73,15 @@ Universities can (and do) limit the amount of hours PhD researchers are allowed 
 infog_help = "assets/help.png"
 st.image(infog_help, use_column_width=True)
 
+st.markdown(
+"""
+There are different ways to help:
+1. Sign the e-petition submitted to the House of Representatives [here](https://www.aph.gov.au/e-petitions/petition/EN6358)  
+2. Share our campaign on social media and within your networks  
+3. Join us to help with our activities. We need a nation-wide network of PhD Researchers to make our collective voice heard!​  
+4. Share your own PhD experience with local media or [with us](https://fair-go-phd.streamlit.app/Get_in_touch)
+"""
+)
 #st.header("Where are we")
 
 #m = leafmap.Map(center=[-25.2744, 133.7751], zoom=4, minimap_control=True)
