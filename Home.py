@@ -28,7 +28,7 @@ Go Fair for PhDs is a campaign led by PhD students at the University of Tasmania
 """
 )
 
-st.header("Who are PhD students?")
+st.subheader("Who are PhD students?")
 
 st.markdown(
 """
@@ -38,7 +38,7 @@ Once they graduate, PhD students may go on to stay within academia, or work in i
 """
 )
 
-st.header("What do PhD students do?")
+st.subheader("What do PhD students do?")
 
 st.markdown(
 """
@@ -59,7 +59,7 @@ PhD students make up over 50% of human resources dedicated to research in Austra
 infog2 = "assets/2.png"
 st.image(infog2, use_column_width=True)
 
-st.header("Why is this happening?")
+st.subheader("Why is this happening?")
 
 st.markdown(
 """
