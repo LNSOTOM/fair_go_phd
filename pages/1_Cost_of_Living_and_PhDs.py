@@ -8,7 +8,7 @@ st.title("How has Cost of Living affected PhD students?")
 st.markdown(
 """
 In the past few years, Cost of Living has increased significantly. Meanwhile, PhD stipends have been hovering around the Poverty Line, a metric that is calculated by the Melbourne Institute.
-Poverty lines vary depending on income units; for example, the poverty line for a single person household is different than that for a couple, or families with dependents.  
+Poverty lines vary depending on income units; for example, the poverty line for a single person household is different than that for a couple, or families with dependents.    
 As of 2024, the poverty line for a single person is AUD611.27; PhD students earn ~AUD619.08 per week on the minimum stipend rate.
 """
 )
@@ -48,3 +48,9 @@ ax.legend()
 st.pyplot(fig)
 
 ### END PLOT 1
+
+st.markdown(
+"""
+As a consequence, financial stress is an ever-present factor for most PhD students that cannot rely on savings, family support, or a partner. This greatly limits the pool of people that can afford to do a PhD, excluding talent, and reducing accessibility to postgraduate programs.
+"""
+)
