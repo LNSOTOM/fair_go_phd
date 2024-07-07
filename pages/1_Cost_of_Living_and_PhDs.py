@@ -57,3 +57,17 @@ As a consequence, financial stress is an ever-present factor for most PhD studen
 Many PhD students are a medical emergency away from having to pause or drop out from their PhD program. How is underpaying its core workforce a sustainable option for research?
 """
 )
+
+# Create a DataFrame directly in the code
+# Create a DataFrame directly in the code
+budget_data = {
+    "Budget Category": ["PhD stipend (annual)", "Rent in Hobart (sharehouse or small studio", "Single-person groceries", "Utilities and additional costs", "Cost of a cheap car (purchase and running costs)", "Annual remainder", "Weekly remainder"],
+    "Expense": [32195, -12567, -4651, -6240, -4037, 4700, 90]
+}
+
+budget_df = pd.DataFrame(budget_data)
+
+# Display the dataframe as a table
+st.subheader("Budget and Expenses Table")
+st.table(df) 
+
