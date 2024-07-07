@@ -48,6 +48,10 @@ PhD students make up over 50% of human resources dedicated to research in Austra
 """
 )
 
+infog2 = "assets/minimumwage.png"
+st.image(infog2, use_column_width=True)
+
+
 #st.header("Where are we")
 
 #m = leafmap.Map(center=[-25.2744, 133.7751], zoom=4, minimap_control=True)
