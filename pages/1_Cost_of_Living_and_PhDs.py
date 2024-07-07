@@ -9,7 +9,8 @@ st.markdown(
 """
 In the past few years, Cost of Living has increased significantly. Meanwhile, PhD stipends have been hovering around the Poverty Line, a metric that is calculated by the Melbourne Institute.
 Poverty lines vary depending on income units; for example, the poverty line for a single person household is different than that for a couple, or families with dependents.    
-As of 2024, the poverty line for a single person is AUD611.27; PhD students earn ~AUD619.08 per week on the minimum stipend rate.
+
+As of 2024, the poverty line for a single person is AUD 611.27; PhD students earn ~AUD 619.08 per week on the minimum stipend rate.
 """
 )
 ### PLOT HDR STIPEND VS. POVERTY LINE ###
@@ -51,6 +52,7 @@ st.pyplot(fig)
 
 st.markdown(
 """
-As a consequence, financial stress is an ever-present factor for most PhD students that cannot rely on savings, family support, or a partner. This greatly limits the pool of people that can afford to do a PhD, excluding talent, and reducing accessibility to postgraduate programs.
+As a consequence, financial stress is an ever-present factor for most PhD students that cannot rely on savings, family support, or a partner. This greatly limits the pool of people that can afford to do a PhD, excluding talent, and reducing accessibility to postgraduate programs.  
+Many PhD students are a medical emergency away from having to pause or drop out from their PhD program.
 """
 )
