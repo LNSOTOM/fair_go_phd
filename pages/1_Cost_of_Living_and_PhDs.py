@@ -2,6 +2,17 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
+# Customize the sidebar
+markdown = """
+Fair Go for PhDs
+<https://x.com/RaiseHDRStipend>
+"""
+
+st.sidebar.title("About")
+st.sidebar.info(markdown)
+logo = "assets/instagram _1.png"
+st.sidebar.image(logo)
+
 # Title of the app
 st.title("How has Cost of Living affected PhD students?")
 
