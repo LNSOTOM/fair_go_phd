@@ -59,7 +59,7 @@ PhD students make up over 50% of human resources dedicated to research in Austra
 infog2 = "assets/2.png"
 st.image(infog2, use_column_width=True)
 
-st.header("How does this happen?")
+st.header("Why is this happening?")
 
 st.markdown(
 """
@@ -69,6 +69,9 @@ Not only do PhD students not receive the equivalent of minimum wages, they also 
 Universities can (and do) limit the amount of hours PhD researchers are allowed to take on outside work during business hours, reducing opportunities for extra income.
 """
 )
+
+infog_help = "assets/help.png"
+st.image(infog_help, use_column_width=True)
 
 #st.header("Where are we")
 
