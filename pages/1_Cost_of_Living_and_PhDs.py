@@ -69,5 +69,5 @@ budget_df = pd.DataFrame(budget_data)
 
 # Display the dataframe as a table
 st.subheader("Budget and Expenses Table")
-st.table(df) 
+st.table(budget_df) 
 
