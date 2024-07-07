@@ -68,6 +68,13 @@ budget_data = {
 budget_df = pd.DataFrame(budget_data)
 
 # Display the dataframe as a table
-st.subheader("Budget and Expenses Table")
+st.subheader("Annual budget and expenses table - a real-life example")
+
+st.markdown(
+"""
+In Hobart, a PhD student receiving the minimum stipend can expect to spend 40% of income on housing, with another ~45% going towards essential costs. Per week, this means that only AUD90 are left for any unexpected or discretionary spending, for example medical appointments, or transport outside of commute (e.g., visiting family outside of Tasmania). This will invariably be different for other cities, depending on housing and groceries costs.
+"""
+)
+
 st.table(budget_df) 
 
