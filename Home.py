@@ -38,7 +38,11 @@ PhD students work 40 hours a week and receive allocated time off (similarly to f
 PhD students have a very different workload and schedule comapred to undergraduate or master students: they are expected to invest most of their working hours into their independent project, and do not attend classes or have tine off during traditional school breaks.
 """
 
-st.markdown(markdown)
+st.header("PhD students are a core driving force in research and innovation.")
+
+markdown = """
+PhD students make up over 50% of human resources dedicated to research in Australian universities. Their effort is key in keeping Australian research relevant and competitive.
+"""
 
 #st.header("Where are we")
 
