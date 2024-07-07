@@ -5,6 +5,15 @@ import matplotlib.pyplot as plt
 # Title of the app
 st.title("How has Cost of Living affected PhD students?")
 
+st.markdown(
+"""
+In the past few years, Cost of Living has increased significantly. Meanwhile, PhD stipends have been hovering around the Poverty Line, a metric that is calculated by the Melbourne Institute.
+Poverty lines vary depending on income units; for example, the poverty line for a single person household is different than that for a couple, or families with dependents.  
+As of 2024, the poverty line for a single person is AUD611.27; PhD students earn ~AUD619.08 per week on the minimum stipend rate.
+"""
+)
+### PLOT HDR STIPEND VS. POVERTY LINE ###
+
 # Read the CSV file
 df = pd.read_csv("assets/hdr_rates.csv")
 
@@ -37,3 +46,5 @@ ax.legend()
 
 # Display plot in Streamlit
 st.pyplot(fig)
+
+### END PLOT 1
