@@ -17,7 +17,7 @@ st.sidebar.image(logo)
 # Customize page title
 #st.title("Fair Go for PhDs")
 
-infog1 = "assets/fairgo_1.png"
+infog1 = "assets/1.png"
 st.image(infog1, use_column_width=True)
 
 st.header("Who are PhD students?")
@@ -48,7 +48,7 @@ PhD students make up over 50% of human resources dedicated to research in Austra
 """
 )
 
-infog2 = "assets/minimumwage.png"
+infog2 = "assets/2.png"
 st.image(infog2, use_column_width=True)
 
 st.markdown(
