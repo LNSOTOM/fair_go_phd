@@ -53,6 +53,7 @@ st.pyplot(fig)
 st.markdown(
 """
 As a consequence, financial stress is an ever-present factor for most PhD students that cannot rely on savings, family support, or a partner. This greatly limits the pool of people that can afford to do a PhD, excluding talent, and reducing accessibility to postgraduate programs.  
-Many PhD students are a medical emergency away from having to pause or drop out from their PhD program.
+
+Many PhD students are a medical emergency away from having to pause or drop out from their PhD program. How is underpaying its core workforce a sustainable option for research?
 """
 )
