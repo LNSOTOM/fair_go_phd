@@ -36,7 +36,6 @@ st.markdown(
 """
 PhD students work on ground breaking, state of the art, frontline research with the guidance of a team of experts - this dynamic is similar to a graduate program, where a new employee is guided by senior figures to become fully qualified.  
 PhD students work 40 hours a week and receive allocated time off (similarly to fully salaried staff members).  
-
 PhD students have a very different workload and schedule compared to undergraduate or master students: they are expected to invest most of their working hours into their independent project, and do not attend classes or have time off during traditional school breaks.
 """
 )
@@ -57,9 +56,7 @@ st.header("How does this happen?")
 st.markdown(
 """
 PhD researchers receive a higher degree by research (HDR) stipend under the research training program (RTP) by the national government. As of 2024, the minimum full-time stipend is AUD 32,192.  
-
 The 2024 PhD Stipend survey found that, even with top ups, most PhD researchers earn significantly less than the National Minimum Wage (AUD 47,627). Additionally, part-time PhD stipends are taxed.
-
 Not only do PhD students not receive the equivalent of minimum wages, they also miss out on superannuation for several years.  
 Universities can (and do) limit the amount of hours PhD researchers are allowed to take on outside work during business hours, reducing opportunities for extra income.
 """
