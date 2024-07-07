@@ -32,17 +32,21 @@ Once they graduate, PhD students may go on to stay within academia, or work in i
 
 st.header("What do PhD students do?")
 
-markdown = """
+st.markdown(
+"""
 PhD students work on ground breaking, state of the art, frontline research with the guidance of a team of experts - this dynamic is similar to a graduate program, where a new employee is guided by senior figures to become fully qualified.  
 PhD students work 40 hours a week and receive allocated time off (similarly to fully salaried staff members).  
 PhD students have a very different workload and schedule comapred to undergraduate or master students: they are expected to invest most of their working hours into their independent project, and do not attend classes or have tine off during traditional school breaks.
 """
+)
 
 st.header("PhD students are a core driving force in research and innovation.")
 
-markdown = """
+st.markdown(
+"""
 PhD students make up over 50% of human resources dedicated to research in Australian universities. Their effort is key in keeping Australian research relevant and competitive.
 """
+)
 
 #st.header("Where are we")
 
