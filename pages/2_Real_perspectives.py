@@ -2,6 +2,15 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import streamlit.components.v1 as components
+from PIL import Image
+
+
+im = Image.open("assets/fairgo_logo.ico")
+st.set_page_config(
+    page_title="Fair Go for PhDs",
+    page_icon=im,
+    layout="wide",
+)
 
 # Customize the sidebar
 markdown = """

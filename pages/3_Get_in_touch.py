@@ -1,6 +1,12 @@
 import streamlit as st
+from PIL import Image
 
-st.set_page_config(layout="wide")
+im = Image.open("assets/fairgo_logo.ico")
+st.set_page_config(
+    page_title="Fair Go for PhDs",
+    page_icon=im,
+    layout="wide",
+)
 
 # Customize the sidebar
 markdown = """
