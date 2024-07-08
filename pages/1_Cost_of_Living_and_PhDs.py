@@ -70,7 +70,6 @@ Many PhDs are a medical emergency away from having to pause or drop out from the
 )
 
 # Create a DataFrame directly in the code
-# Create a DataFrame directly in the code
 budget_data = {
     "Item": ["PhD stipend (annual)", "Rent in Hobart (room in sharehouse or small studio)", "Groceries for 1 person", "Utilities and additional costs (e.g., bills, phone plan, UTAS Unigym membership)", "Cost of a cheap car (purchase and running costs)", "Annual remainder", "Weekly remainder"],
     "Expense (AUD)": [32195, -12567, -4651, -6240, -4037, 4700, 90]
@@ -79,7 +78,7 @@ budget_data = {
 budget_df = pd.DataFrame(budget_data)
 
 # Display the dataframe as a table
-st.subheader("Annual budget and expenses table - a real-life example")
+st.subheader("A year in a budget")
 
 st.markdown(
 """
@@ -91,3 +90,15 @@ This will invariably be different for other cities, depending on a variety of fa
 
 st.table(budget_df) 
 
+st.subheader(
+"""
+Data sources
+"""
+)
+
+st.markdown(
+"""
+Historical stipend rates for PhDs available from [Australia's Department of Education](https://www.education.gov.au/research-block-grants/resources/historical-stipend-rates-postgraduate-scholarships)
+Poverty line data available from the [Melbourne Institute](https://melbourneinstitute.unimelb.edu.au/publications/poverty-lines)
+"""
+)
