@@ -56,7 +56,7 @@ PhDs make up over 50% of human resources dedicated to research in Australian uni
 """
 )
 
-infog2 = "assets/2.png"
+infog2 = "assets/belowminwage.png"
 st.image(infog2, use_column_width=True)
 
 st.subheader("Why is this happening?")
