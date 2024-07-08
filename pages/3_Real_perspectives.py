@@ -18,6 +18,12 @@ st.title("Groceries, heating, or a doctor's appointment?")
 
 st.markdown(
 """
+As part of the campaign, we want to highlight the difficulties faced by current PhDs - a low stipend has ramifications that go beyond comfort, but affect people's physical and mental health. PhDs are already vulnerable to anxiety and depression due to the high pressure and deadlines of their programs; low stipends aggravate this situation and stop PhDs from asking for doctor's appointments, or being able to live without having to choose between groceries, heating, or their own wellbeing.
+"""
+)
+
+st.markdown(
+"""
 "I work over 40 hours per week on my PhD. The only way I can afford to do this is because I have a partner that has a well paying full-time job. I genuinely don't know how I would be able to do my research without him. Even so, we have to budget pretty carefully.  All you need is to have one unexpected dentist visit come up, and your bank account is empty. We are well into our 30s and can't even think about having kids, there is no way we could afford that right now. And just to re-iterate, I am very lucky by comparison. It's heart-breaking witnessing colleagues debate whether they should buy groceries or heat their homes. Many of us had careers before we started this. I had a competitive salary above Minimum Wage."   
 - B, PhD on Fisheries Management
 """
