@@ -14,7 +14,7 @@ logo = "assets/instagram _1.png"
 st.sidebar.image(logo)
 
 # Title of the app
-st.title("A doctor's appointment away")
+st.title("Groceries, heating, or a doctor's visit?")
 
 st.markdown(
 """
