@@ -52,7 +52,7 @@ st.header("PhDs are a core driving force in research and innovation.")
 
 st.markdown(
 """
-PhDs make up over 50% of human resources dedicated to research in Australian universities. Their effort is key in keeping Australian research relevant and competitive.
+PhDs make up [over 50% of human resources dedicated to research](https://www.abs.gov.au/statistics/industry/technology-and-innovation/research-and-experimental-development-higher-education-organisations-australia/latest-release#data-download) in Australian universities. Their effort is key in keeping Australian research relevant and competitive.
 """
 )
 
