@@ -24,7 +24,7 @@ st.header("Our goal: fair wages for Australia's PhDs.")
 
 st.markdown(
 """
-'Go Fair for PhDs' is a campaign led by PhDs, for PhDs at the University of Tasmania (UTAS). Our goal is to ensure the just compensation of PhDs nationwide: we want the Australian government to raise the minimum stipend to match the national minimum wage, so that PhDs can live with dignity, afford housing and essentials, and focus on their research.
+'Fair Go for PhDs' is a campaign led by PhDs, for PhDs at the University of Tasmania (UTAS). Our goal is to ensure the just compensation of PhDs nationwide: we want the Australian government to raise the minimum stipend to match the national minimum wage, so that PhDs can live with dignity, afford housing and essentials, and focus on their research.
 """
 )
 
