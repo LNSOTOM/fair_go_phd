@@ -116,7 +116,7 @@ folium.TileLayer(
 ).add_to(m)
 
 # Add MiniMap centered on Tasmania
-minimap = MiniMap(toggle_display=True, position="bottomleft")
+minimap = MiniMap(toggle_display=False, position="bottomleft")
 minimap.add_to(m)
 
 # Add a marker in Tasmania with a custom icon
@@ -140,4 +140,4 @@ custom_js = f"""
 folium.Element(custom_js).add_to(m.get_root())
 
 # Display the map in Streamlit with a height of 700 pixels and a width of 800 pixels
-st_folium(m, height=400,  width="100%")
+st_folium(m, height=500,  width="100%")
