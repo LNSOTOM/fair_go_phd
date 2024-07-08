@@ -89,7 +89,7 @@ basemaps = {
 
 
 # Create the map centered on Australia using folium
-m = folium.Map(location=australia_center, zoom_start=5, tiles=None)
+m = folium.Map(location=australia_center, zoom_start=4, tiles=None)
 
 # Add the fixed basemap (OpenTopoMap)
 folium.TileLayer(basemaps["OpenTopoMap"]["url"], attr=basemaps["OpenTopoMap"]["attr"], name="OpenTopoMap").add_to(m)
