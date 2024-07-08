@@ -18,7 +18,8 @@ st.title("Groceries, heating, or a doctor's appointment?")
 
 st.markdown(
 """
-As part of the campaign, we want to highlight the difficulties faced by current PhDs - a low stipend has ramifications that go beyond comfort, but affect people's physical and mental health. PhDs are already vulnerable to anxiety and depression due to the high pressure and deadlines of their programs; low stipends aggravate this situation and stop PhDs from asking for doctor's appointments, or being able to live without having to choose between groceries, heating, or their own wellbeing.
+As part of the campaign, we want to highlight the difficulties faced by current PhDs - a low stipend has ramifications that go beyond comfort, but affect people's physical and mental health. 
+PhDs are already vulnerable to anxiety and depression due to the high pressure environment of academia; low stipends aggravate this situation and stop PhDs from asking for doctor's appointments, or being able to live without having to choose between groceries, heating, or their own wellbeing.
 """
 )
 
