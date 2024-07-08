@@ -120,7 +120,7 @@ minimap = MiniMap(toggle_display=True, position="bottomleft")
 minimap.add_to(m)
 
 # Add a marker in Tasmania with a custom icon
-icon = folium.Icon(icon="home", color="#FDD072", icon_color="blue")
+icon = folium.Icon(icon="home", color="#ff6100", icon_color="#ffde59")
 folium.Marker(location=tasmania_center, popup="Tasmania", icon=icon).add_to(m)
 
 # Add Layer control
