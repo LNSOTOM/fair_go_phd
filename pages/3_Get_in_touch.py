@@ -116,7 +116,7 @@ folium.TileLayer(
 ).add_to(m)
 
 # Add MiniMap centered on Tasmania
-minimap = MiniMap(toggle_display=False, position="bottomleft")
+minimap = MiniMap(toggle_display=True, position="bottomleft")
 minimap.add_to(m)
 
 # Add a marker in Tasmania with a custom icon
