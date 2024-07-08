@@ -126,13 +126,14 @@ folium.Marker(location=tasmania_center, popup="Tasmania", icon=icon).add_to(m)
 # Add Layer control
 folium.LayerControl().add_to(m)
 
-# Custom JavaScript to set the minimap view to Tasmania
+# Custom JavaScript to close the minimap on load and set the minimap view to Tasmania
 custom_js = f"""
 <script>
     document.addEventListener("DOMContentLoaded", function() {{
         var minimap = document.querySelector('.leaflet-control-minimap');
         if (minimap) {{
             minimap._miniMap.setView([{tasmania_center[0]}, {tasmania_center[1]}], 5);
+            minimap._toggleDisplayButton.click();
         }}
     }});
 </script>
