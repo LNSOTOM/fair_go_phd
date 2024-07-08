@@ -141,4 +141,4 @@ custom_js = f"""
 folium.Element(custom_js).add_to(m.get_root())
 
 # Display the map in Streamlit with a height of 700 pixels and a width of 800 pixels
-st_folium(m, height=490,  width="100%")
+st_folium(m, height=500,  width="100%")
