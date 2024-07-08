@@ -14,14 +14,14 @@ logo = "assets/instagram _1.png"
 st.sidebar.image(logo)
 
 # Title of the app
-st.title("How has Cost of Living affected PhD students?")
+st.title("How has Cost of Living affected PhDs?")
 
 st.markdown(
 """
 In the past few years, Cost of Living has increased significantly. Meanwhile, PhD stipends have been hovering around the Poverty Line, a metric that is calculated by the Melbourne Institute.
 Poverty lines vary depending on income units; for example, the poverty line for a single person household is different than that for a couple, or families with dependents.    
 
-As of 2024, the poverty line for a single person is AUD 611.27; PhD students earn ~AUD 619.08 per week on the minimum stipend rate.
+As of 2024, the poverty line for a single person is AUD 611.27; PhDs earn ~AUD 619.08 per week on the minimum stipend rate.
 """
 )
 ### PLOT HDR STIPEND VS. POVERTY LINE ###
@@ -63,9 +63,9 @@ st.pyplot(fig)
 
 st.markdown(
 """
-As a consequence, financial stress is an ever-present factor for most PhD students that cannot rely on savings, family support, or a partner. This greatly limits the pool of people that can afford to do a PhD, excluding talent, and reducing accessibility to postgraduate programs.  
+As a consequence, financial stress is an ever-present factor for most PhDs that cannot rely on savings, family support, or a partner. This greatly limits the pool of people that can afford to do a PhD, excluding talent, and reducing accessibility to postgraduate programs.  
 
-Many PhD students are a medical emergency away from having to pause or drop out from their PhD program. How is underpaying its core workforce a sustainable option for research?
+Many PhDs are a medical emergency away from having to pause or drop out from their PhD program. How is underpaying its core workforce a sustainable option for research?
 """
 )
 
@@ -83,7 +83,7 @@ st.subheader("Annual budget and expenses table - a real-life example")
 
 st.markdown(
 """
-In Hobart, a PhD student receiving the minimum stipend can expect to spend 40% of income on housing, with another ~45% going towards essential costs. 
+In Hobart, a PhD receiving the minimum stipend can expect to spend 40% of income on housing, with another ~45% going towards essential costs. 
 Per week, this means that only AUD90 are left for any unexpected or discretionary spending, for example medical appointments, or transport outside of commute (e.g., visiting family outside of Tasmania). 
 This will invariably be different for other cities, depending on a variety of factors.
 """
