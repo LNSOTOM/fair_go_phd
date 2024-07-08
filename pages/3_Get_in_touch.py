@@ -15,4 +15,4 @@ st.sidebar.image(logo)
 
 st.title("Get in touch with us!")
 
-st.markdown("Are you someone from a media platform? Or someone with a story to tell?")
+st.markdown("Are you someone from a media platform? Or someone with a story to tell?  Please send any enquiries to micah.landonlane@utas.edu.au")
