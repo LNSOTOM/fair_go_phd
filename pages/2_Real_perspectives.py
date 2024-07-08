@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+import streamlit.components.v1 as components
 
 # Customize the sidebar
 markdown = """
@@ -22,6 +23,7 @@ As part of the campaign, we want to highlight the difficulties faced by current 
 PhDs are already [vulnerable to anxiety and depression](https://www.nature.com/articles/s41599-021-00983-8) due to the high pressure environment of academia; low stipends aggravate this situation and stop PhDs from asking for doctor's appointments, or being able to live without having to choose between groceries, heating, or their own wellbeing.
 """
 )
+st.markdown("""---""")
 
 st.markdown(
 """
@@ -29,3 +31,4 @@ st.markdown(
 - B, PhD on Fisheries Management
 """
 )
+st.markdown("""---""")
