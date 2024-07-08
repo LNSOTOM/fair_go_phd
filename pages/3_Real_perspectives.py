@@ -14,13 +14,10 @@ logo = "assets/instagram _1.png"
 st.sidebar.image(logo)
 
 # Title of the app
-st.title("How has Cost of Living affected PhDs?")
+st.title("A doctor's appointment away")
 
 st.markdown(
 """
-In the past few years, Cost of Living has increased significantly. Meanwhile, PhD stipends have been hovering around the Poverty Line, a metric that is calculated by the Melbourne Institute.
-Poverty lines vary depending on income units; for example, the poverty line for a single person household is different than that for a couple, or families with dependents.    
-
-As of 2024, the poverty line for a single person is AUD 611.27; PhDs earn ~AUD 619.08 per week on the minimum stipend rate.
+"I work over 40 hours per week on my PhD. The only way I can afford to do this is because I have a partner that has a well paying full-time job. I genuinely don't know how I would be able to do my research without him. Even so, we have to budget pretty carefully.  All you need is to have one unexpected dentist visit come up, and your bank account is empty. We are well into our 30s and can't even think about having kids, there is no way we could afford that right now. And just to re-iterate, I am very lucky by comparison. It's heart-breaking witnessing colleagues debate whether they should buy groceries or heat their homes. Many of us had careers before we started this. I had a competitive salary above Minimum Wage." - B, PhD on Fisheries Management
 """
 )
