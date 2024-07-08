@@ -1,7 +1,14 @@
 import streamlit as st
 import leafmap.foliumap as leafmap
+from PIL import Image
 
-st.set_page_config(layout="wide")
+
+im = Image.open("assets/fairgo_logo.ico")
+st.set_page_config(
+    page_title="Fair Go for PhDs",
+    page_icon=im,
+    layout="wide",
+)
 
 # Customize the sidebar
 markdown = """
