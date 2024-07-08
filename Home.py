@@ -63,7 +63,7 @@ st.subheader("Why is this happening?")
 
 st.markdown(
 """
-PhDs receive a Higher Degree by Research (HDR) stipend under the Research Training Program (RTP) by the national government. As of 2024, the minimum full-time stipend is AUD 32,192.  
+PhDs receive a Higher Degree by Research (HDR) stipend under the [Research Training Program (RTP)](https://www.education.gov.au/research-block-grants/research-training-program) by the national government. As of 2024, the minimum full-time stipend is AUD 32,192.  
 The 2024 PhD Stipend survey found that, even with top ups, most PhDs earn significantly less than the National Minimum Wage (AUD 47,627). Additionally, part-time PhD stipends are taxed.  
 Not only do PhDs not receive the equivalent of minimum wages, they also miss out on superannuation for several years.  
 Universities can (and do) limit the amount of hours PhDs are allowed to take on outside work during business hours, reducing opportunities for extra income.
