@@ -98,7 +98,7 @@ Data sources
 
 st.markdown(
 """
-Historical stipend rates for PhDs available from [Australia's Department of Education](https://www.education.gov.au/research-block-grants/resources/historical-stipend-rates-postgraduate-scholarships)
-Poverty line data available from the [Melbourne Institute](https://melbourneinstitute.unimelb.edu.au/publications/poverty-lines)
+1. Historical stipend rates for PhDs available from [Australia's Department of Education](https://www.education.gov.au/research-block-grants/resources/historical-stipend-rates-postgraduate-scholarships)  
+2. Poverty line data available from the [Melbourne Institute](https://melbourneinstitute.unimelb.edu.au/publications/poverty-lines)
 """
 )
