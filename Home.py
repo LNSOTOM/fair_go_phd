@@ -43,7 +43,7 @@ st.subheader("What do PhD students do?")
 st.markdown(
 """
 PhD students work on ground breaking, state of the art, frontline research with the guidance of a team of experts - this dynamic is similar to a graduate program, where a new employee is guided by senior figures to become fully qualified.  
-PhD students work 40 hours a week and receive allocated time off (similarly to fully salaried staff members).  
+PhD students work at least 40 hours a week and receive allocated time off (similarly to fully salaried staff members).  
 PhD students have a very different workload and schedule compared to undergraduate or master students: they are expected to invest most of their working hours into their independent project, and do not attend classes or have time off during traditional school breaks.
 """
 )
