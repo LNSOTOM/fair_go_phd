@@ -63,7 +63,7 @@ PhDs make up [over 50% of human resources dedicated to research](https://www.abs
 """
 )
 
-infog2 = "assets/belowminwage.png"
+infog2 = "assets/minwage_correct.png"
 st.image(infog2, use_column_width=True)
 
 st.markdown(
