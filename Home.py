@@ -68,7 +68,7 @@ st.image(infog2, use_column_width=True)
 
 st.markdown(
 """
-*AUD 11.7k pre-tax; AUD 9.5k post-tax
+*AUD 15.4k pre-tax; AUD ~10k post-tax
 """
 )
 
