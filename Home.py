@@ -66,6 +66,12 @@ PhDs make up [over 50% of human resources dedicated to research](https://www.abs
 infog2 = "assets/belowminwage.png"
 st.image(infog2, use_column_width=True)
 
+st.markdown(
+"""
+*AUD 11.7k pre-tax; AUD 9.5k post-tax
+"""
+)
+
 st.subheader("Why is this happening?")
 
 st.markdown(
