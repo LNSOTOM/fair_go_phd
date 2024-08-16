@@ -89,7 +89,7 @@ st.image(infog_help, use_column_width=True)
 st.markdown(
 """
 There are different ways to help:
-1. Sign the e-petition submitted to the House of Representatives [here](https://www.aph.gov.au/e-petitions/petition/EN6358)  
+1. Contact your local MPs and politicias - [check who's who here](https://raisethestipend.help/)
 2. Share our campaign on social media and within your networks  
 3. Join us to help with our activities. We need a nation-wide network of PhDs, researchers, and senior staff to make our collective voice heard!​  
 4. Share your own PhD experience with local media or [with us](https://fair-go-phd.streamlit.app/Get_in_touch)
