@@ -7,7 +7,7 @@ import seaborn as sns
 from PIL import Image
 
 # Configure Streamlit app
-im = Image.open("../assets/fairgo_logo.ico")
+im = Image.open("assets/fairgo_logo.ico")
 st.set_page_config(
     page_title="Fair Go for PhDs",
     page_icon=im,
@@ -21,7 +21,7 @@ Fair Go for PhDs
 """
 st.sidebar.title("About")
 st.sidebar.info(markdown)
-logo = "../assets/instagram _1.png"
+logo = "assets/instagram _1.png"
 st.sidebar.image(logo)
 
 # Title of the app
